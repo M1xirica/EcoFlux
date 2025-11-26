@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+
+    padding: 0;
+   
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #FDF5E6;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin-bottom: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+}
+
+header h1{
+    color: #658C58;
+}
+
+nav{
+    margin-top: 30px;
+}
+
+nav a{
+    color: #232a1c;
+    margin: 0 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+nav a:hover{
+    color: green;
+}
+
+nav img{
+    width: 30px;
+    height: 30px;
+    transition: transform 0.5s;
+}
+
+nav img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+.produtos {
+    padding: 40px;
+    text-align: center;
+}
+
+.produtos h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.produtos-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.produto-card {
+    background: #fff;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform .2s;  
+}
+
+.produto-card:hover {
+    transform: scale(1.05);
+}
+
+.produto-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.produto-card h3 {
+    margin: 15px 0;
+}
+
+.preco {
+    display: block;
+    margin: 10px 0;
+    font-size: 20px;
+    color: #27ae60;
+    font-weight: bold;
+}
+
+button {
+    background: #27ae60;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #1e8c4c;
+}
+
+footer{
+    background-color: #34512A;
+    padding: 50px 0;
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 22px;
+    color: #FDF5E6;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #FDF5E6;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #cecdcd;
+    padding-left: 10px;
+}
+.footer-col .medias-socias{
+    margin-top: 30px;
+}
+.footer-col .medias-socias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+}
+.footer-col .medias-socias img{
+    height: 30px;
+    width: 30px;
+    border-radius: 90px;
+}
+
+.footer-col .medias-socias a:hover{
+    color: #415aca;
+    background-color: #FDF5E6;
+}
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: #658C58;
+    border-radius: 50px;
+}
+.footer-col .form-sub input::placeholder{
+    color: white;
+}
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px; 
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: #FDF5E6;
+    border-radius: 50px;
+
+}
+/* Responsivo */
+@media (max-width: 800px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:600px) {
+    .footer-col{
+        width: 100%;
+    }
+}
+
+
+
