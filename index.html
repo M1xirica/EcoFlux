@@ -1,135 +1,156 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EcoFlux</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-
-<!--Cabeçalho-->
-
-<header>
-    <h1>EcoFlux</h1>
-    <nav>
-        <ul>
-            <a href="/RESTAURANTE-fofo/menu.html">Produtos</a>
-            <a href="/RESTAURANTE-fofo/reserva.html">Contato</a>
-            <a href="/RESTAURANTE-fofo/contato2.html">Projeto</a>
-            <img src="/IMG/carrinho.png" alt="#">
-        </ul>
-    </nav>
-</header>
-
-
-
-
-<main>
-
-    <section class="produtos">
-        <h2>EcoBoxes</h2>
-
-        <div class="ecobox">
-
-            <h4>O que são as EcoBoxes</h4>
-            <p class="pfodao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum exercitationem quidem, nisi ipsa, beatae magnam deserunt vitae quia molestias minus, quam magni dolorem ea officiis alias? Natus officiis doloremque veniam.</p>
-
-        </div>
-
-            
-        <div class="produtos-container">
-
-            <div class="produto-card">
-                <img src="https://via.placeholder.com/200" alt="Produto 1">
-                <h3>EcoBox Entregadores</h3>
-                <p>Descrição breve do produto.</p>
-                <span class="preco">R$ 59,90</span>
-                <button>Adicionar ao carrinho</button>
-            </div>
-
-            <div class="produto-card">
-                <img src="https://via.placeholder.com/200" alt="Produto 2">
-                <h3>EcoBox Estudantes</h3>
-                <p>Descrição breve do produto.</p>
-                <span class="preco">R$ 79,90</span>
-                <button>Adicionar ao carrinho</button>
-            </div>
-
-            <div class="produto-card">
-                <img src="https://via.placeholder.com/200" alt="Produto 3">
-                <h3>EcoBox Clt</h3>
-                <p>Descrição breve do produto.</p>
-                <span class="preco">R$ 99,90</span>
-                <button>Adicionar ao carrinho</button>
-            </div>
-            
-            
-            
-        </section>
-        
-    </main>
     
-    <footer>
+    
+    <!--Cabeçalho-->
+    
+    <header>
+        <h1>EcoFlux</h1>
+        <nav>
+            <ul>
+                <a href="/RESTAURANTE-fofo/menu.html">Produtos</a>
+                <a href="/RESTAURANTE-fofo/reserva.html">Contato</a>
+                <a href="/RESTAURANTE-fofo/contato2.html">Projeto</a>
+                <div class="cart-wrapper">
+                    <img id="cart-icon" src="/IMG/carrinho.png" alt="#">
+                    <span id="cart-count">0</span>
+                    
+                    <div id="cart-dropdown">
+                        <h3>Seu Carrinho</h3>
+                        <div id="cart-items"></div>
+                        
+                        <p id="cart-total">Total: R$ 0,00</p>
+                        
+                        <button id="checkout-btn">Finalizar Compra</button>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    
+    
+    
+    
+    <main>
+
         
-        <div class="container-footer">
-            <div class="row-footer">
-                <!-- footer col-->
+        <section class="produtos">
+            <h2>EcoBoxes</h2>
+            
+            <div class="ecobox">
+                
+                <h4>O que são as EcoBoxes</h4>
+                <p class="pfodao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum exercitationem
+                    quidem, nisi ipsa, beatae magnam deserunt vitae quia molestias minus, quam magni dolorem ea officiis
+                    alias? Natus officiis doloremque veniam.</p>
+                    
+                </div>
+                
+                
+                <div class="produtos-container">
+                    
+                    <div class="produto-card">
+                        <img src="/IMG/EcoFlux-Photoroom.png" alt="Produto 1">
+                        <h3>EcoBox Entregadores</h3>
+                    <p>Descrição breve do produto.</p>
+                    <span class="preco">R$ 59,90</span>
+                    <button>Adicionar ao carrinho</button>
+                </div>
+                
+                <div class="produto-card">
+                    <img src="/IMG/EcoFlux-Photoroom.png" alt="Produto 2">
+                    <h3>EcoBox Estudantes</h3>
+                    <p>Descrição breve do produto.</p>
+                    <span class="preco">R$ 79,90</span>
+                    <button>Adicionar ao carrinho</button>
+                </div>
+                
+                <div class="produto-card">
+                    <img src="/IMG/EcoFlux-Photoroom.png" alt="Produto 3">
+                    <h3>EcoBox Clt</h3>
+                    <p>Descrição breve do produto.</p>
+                    <span class="preco">R$ 99,90</span>
+                    <button>Adicionar ao carrinho</button>
+                </div>
+                
+                
+                
+            </section>
+
+        </main>
+        
+        <footer>
+            
+            <div class="container-footer">
+                <div class="row-footer">
+                    <!-- footer col-->
+                    <div class="footer-col">
+                        <h4>EcoFlux</h4>
+                        
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel alias fugit minima assumenda nihil
+                            itaque unde perferendis, debitis, delectus modi eaque dolorem temporibus deserunt omnis sint
+                            saepe voluptatibus ab cupiditate?</h4>
+                            
+                        </div>
+                        <div class="footer-col">
+                            <h4>Empresa</h4>
+                            <ul>
+                                <li><a href="#"> Quem somos </a></li>
+                                <li><a href=""> nossos serviços </a></li>
+                                <li><a href=""> política de privacidade </a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-col">
+                            <h4>Obter ajuda</h4>
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">devoluções</a></li>
+                                <li><a href="#">Status De Pedido</a></li>
+                                <li><a href="#">Opções De Pagamento</a></li>
+                            </ul>
+                        </div>
+                        
+                        
+                        
+
+
                 <div class="footer-col">
-                    <h4>EcoFlux</h4>
-                
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel alias fugit minima assumenda nihil itaque unde perferendis, debitis, delectus modi eaque dolorem temporibus deserunt omnis sint saepe voluptatibus ab cupiditate?</h4>
-                
-                </div>
-            <div class="footer-col">
-                <h4>Empresa</h4>
-                <ul>
-                    <li><a href="#"> Quem somos </a></li>
-                    <li><a href=""> nossos serviços </a></li>
-                    <li><a href=""> política de privacidade </a></li>
-                </ul>
-            </div>
+                    <h4>Contato!</h4>
+                    <div class="form-sub">
+                        <form>
+                            <input type="email" placeholder="Digite o seu e-mail" required>
+                            <button>Enviar</button>
+                        </form>
+                    </div>
+                    
+                    <div class="medias-socias">
+                        <a href="#"><img src="https://www.shareicon.net/download/2017/01/24/875988_media_512x512.png"
+                                alt=""></a>
+                                <a href="#"><img
+                                    src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/social-medias/x-twitter-logo-4x9ptijrdjch64mh4czlr.png/x-twitter-logo-top697n5ef8g4ua0vz2lu.png?_a=DATAg1AAZAA0"
+                                    alt=""></a>
+                                    <a href="#"><img src="https://cdn-icons-png.freepik.com/256/2496/2496112.png" alt=""></a>
+                                    
+                                </div>
+                                
+                            </div>
+                            <!--end footer col-->
+                        </div>
+                    </div>
+                </footer>
 
-            <div class="footer-col">
-                <h4>Obter ajuda</h4>
-                <ul>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">devoluções</a></li>
-                    <li><a href="#">Status De Pedido</a></li>
-                    <li><a href="#">Opções De Pagamento</a></li>
-                </ul>
-            </div>
-
-
-
-
-
-            <div class="footer-col">
-                <h4>Contato!</h4>
-                <div class="form-sub">
-                    <form>
-                        <input type="email" placeholder="Digite o seu e-mail" required>
-                        <button>Enviar</button>
-                    </form>
-                </div>
-
-                <div class="medias-socias">
-                    <a href="#"><img
-                            src="https://www.shareicon.net/download/2017/01/24/875988_media_512x512.png"
-                            alt=""></a>
-                    <a href="#"><img
-                            src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/social-medias/x-twitter-logo-4x9ptijrdjch64mh4czlr.png/x-twitter-logo-top697n5ef8g4ua0vz2lu.png?_a=DATAg1AAZAA0"
-                            alt=""></a>
-                    <a href="#"><img src="https://cdn-icons-png.freepik.com/256/2496/2496112.png" alt=""></a>
-
-                </div>
-
-            </div>
-            <!--end footer col-->
-        </div>
-    </div>
-</footer>
-
-    
-</body>
-</html>
+                <script src="java.js"></script>
+            </body>
+            
+            </html>
