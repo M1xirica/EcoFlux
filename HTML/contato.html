@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFlux - Contato</title>
+    <link rel="stylesheet" href="/CSS/contato.css">
+</head>
+
+<body>
+
+
+    <!--Cabeçalho-->
+
+    <header class="topo">
+        <div class="logo">
+            <a href="/HTML/index.html"><img src="https://i.im.ge/2025/12/04/4YEIDa.leafpng.png" alt="EcoFlux"></a>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="/HTML/index.html">Início</a></li>
+                <li><a href="/HTML/produtos.html">Produtos</a></li>
+                <li><a href="/HTML/projeto.html">Projeto</a></li>
+            </ul>
+        </nav>
+
+        <div class="cart-wrapper">
+            <img id="cart-icon" src="https://cdn-icons-png.flaticon.com/512/126/126510.png" alt="Carrinho">
+            <span id="cart-count">0</span>
+
+            <div id="cart-dropdown">
+                <h3>Seu Carrinho</h3>
+                <div id="cart-items"></div>
+
+                <p id="cart-total">Total: R$ 0,00</p>
+
+                <button id="checkout-btn">Finalizar Compra</button>
+            </div>
+        </div>
+    </header>
+
+
+
+<header class="hero-section">
+        <h1>Fale Conosco</h1>
+        <p>Tire suas dúvidas, solicite um orçamento ou inicie uma parceria sustentável.</p>
+    </header>
+
+    <main class="contact-container">
+        
+        <section class="contact-info">
+            
+            <div class="info-block">
+                <h3><i class="fas fa-headset"></i> Atendimento</h3>
+                <p><i class="fas fa-phone-alt"></i> Telefone: **(11) 95764-8804** (WhatsApp)</p>
+                <p><i class="fas fa-envelope"></i> E-mail: <a href="mailto:contato@ecoflux.com.br">contato@ecoflux.com.br</a></p>
+            </div>
+            
+            <div class="info-block">
+                <h3><i class="fas fa-map-marker-alt"></i> Nossa Localização</h3>
+                <address>
+                    USCS - Universidade Municipal de São Caetano do Sul <br>
+                    R. Santo Antonio, 50 - Centro<br>
+                    São Caetano do Sul - SP, 09521-160
+                </address>
+                <div class="map-embed">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.8966456093834!2d-46.57726718449624!3d-23.64293937072522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5b1062970a01%3A0xc3f587d55d81b151!2sUSCS%20-%20Universidade%20Municipal%20de%20S%C3%A3o%20Caetano%20do%20Sul%20-%20R.%20Santo%20Antonio%2C%2050%20-%20Centro%2C%20S%C3%A3o%20Caetano%20do%20Sul%20-%20SP%2C%2009521-160!5e0!3m2!1spt-BR!2sbr!4v1634567890123!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+            <div class="social-block">
+                <h3><i class="fas fa-share-alt"></i> Siga a Ecoflux</h3>
+                <a href="https://instagram.com/ecoflux" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com/company/ecoflux" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://facebook.com/ecoflux" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            </div>
+
+        </section>
+
+        <section class="contact-form-section">
+            <h2>Envie uma Mensagem</h2>
+            <form action="/submit-form" method="POST" class="contact-form">
+                
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Seu melhor e-mail" required>
+                
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto" required>
+                    <option value="" disabled selected>Selecione o assunto...</option>
+                    <option value="orcamento">Solicitar Orçamento</option>
+                    <option value="parceria">Proposta de Parceria</option>
+                    <option value="duvida">Dúvida Geral</option>
+                    <option value="outro">Outro</option>
+                </select>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="6" placeholder="Escreva sua mensagem detalhada..." required></textarea>
+                
+                <button type="submit" class="submit-btn">Enviar Mensagem</button>
+            </form>
+        </section>
+        
+    </main>
+
+
+
+    <footer class="eco-footer">
+        <div class="eco-container">
+
+            <div class="eco-col">
+                <h2 class="eco-title">EcoFlux</h2>
+                <p class="eco-text">
+                    Conectando tecnologia e sustentabilidade para um futuro mais verde.
+                </p>
+            </div>
+
+            <div class="eco-col">
+                <h3 class="eco-subtitle">Navegação</h3>
+                <ul class="eco-list">
+                    <li><a href="/HTML/index.html">Início</a></li>
+                    <li><a href="/HTML/produtos.html">Produto</a></li>
+                    <li><a href="/HTML/projeto.html">Projeto</a></li>
+                    <li><a href="/HTML/contato.html">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="eco-col">
+                <h3 class="eco-subtitle">Contato</h3>
+                <p>Email: contato@ecoflux.com</p>
+                <p>Telefone: (11) 95764-8804</p>
+                <p>Endereço: USCS(Universidade Municipal de São Caetano do Sul) - R. Santo Antonio, 50 - Centro, São Caetano do Sul - SP, 09521-160</p>
+            </div>
+
+            <div class="eco-col">
+                <h3 class="eco-subtitle">Redes Sociais</h3>
+                <p>
+                    <a href="#">Instagram</a><br>
+                    <a href="#">LinkedIn</a><br>
+                    <a href="#">Facebook</a>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="eco-copy">
+            <p>© 2025 EcoFlux —  Revolução rápida, impacto real.
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="/JavaScript/contato.js"></script>
+
+
+
+
+</body>
+
+</html>
